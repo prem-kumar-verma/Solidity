@@ -20,14 +20,12 @@ A state variable is declared **inside the contract but outside any function**.
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract StateExample {
+contract State {
     // State variables (stored permanently on blockchain)
-    string public name;
-    uint public age;
-    
+    uint public age = 10;
+    // age = 10; Wrong method
     // Constructor to initialize state variables
     constructor() {
-        name = "Alice";
         age = 25;
     }
     
@@ -36,10 +34,6 @@ contract StateExample {
         age = _newAge;
     }
     
-    // Getter function for name (optional since name is public)
-    function getName() public view returns (string memory) {
-        return name;
-    }
 }
 ```
 
