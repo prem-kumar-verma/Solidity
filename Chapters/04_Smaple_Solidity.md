@@ -26,6 +26,11 @@ contract Identity {
     function getAge() public view returns (uint) {
         return age;
     }
+    
+    // Function to increment the age
+    function setAge() public {
+        age = age + 1;
+    }
 }
 ```
 
@@ -57,7 +62,7 @@ contract Identity {
   - `age` is set to **17**.
   - The constructor executes **only once** at contract deployment.
 
-### **6. Functions to Get Data**
+### **6. Functions to Get and Update Data**
 #### **Function: `getName()`**
 ```solidity
 function getName() public view returns (string memory) {
@@ -76,6 +81,16 @@ function getAge() public view returns (uint) {
 ```
 - Returns an **unsigned integer (`uint`)**, representing age.
 
+#### **Function: `setAge()`**
+```solidity
+function setAge() public {
+    age = age + 1;
+}
+```
+- This function **increments** the age by 1 each time it is called.
+- It modifies the contract's state, so it does not use `view` or `pure`.
+- Useful in scenarios where the age needs to be updated dynamically.
+
 ---
 
 ## 🔗 Return Type Explanation
@@ -83,6 +98,7 @@ function getAge() public view returns (uint) {
 |----------|------------|-------------|
 | `getName()` | `string memory` | Returns a string (stored in memory) |
 | `getAge()` | `uint` | Returns an unsigned integer |
+| `setAge()` | No return | Modifies state, increments age by 1 |
 
 - The return type **indicates the type of data** the function will return.
 - In the function itself, the `return` statement shows the **variable name** being returned.
@@ -101,7 +117,8 @@ function getAge() public view returns (uint) {
 ---
 
 ## 🎯 Conclusion
-- This contract stores **name and age** and allows users to retrieve them.
+- This contract stores **name and age**, allows users to retrieve them, and increments the age dynamically.
 - Solidity is **statically typed and case-sensitive**.
 - **Remix IDE** makes it easy to compile and test contracts.
 - **Understanding return types** helps in working with smart contract functions.
+
