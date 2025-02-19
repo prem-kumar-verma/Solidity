@@ -63,5 +63,3 @@ contract AutoGetter {
 - Use **setter functions** when you need to modify blockchain data (requires gas fees).
 - Declaring a **public** state variable automatically creates a getter.
 - **Default visibility is private**, so explicitly declare variables public if needed.
-
-🚀 **Happy Coding with Solidity!**
