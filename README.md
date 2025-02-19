@@ -35,9 +35,3 @@ Before you begin, ensure you have the following installed:
 - npm or Yarn
 - Truffle or Hardhat (for smart contract development)
 - A code editor like Visual Studio Code
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone <repository-url>
