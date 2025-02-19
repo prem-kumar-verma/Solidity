@@ -92,6 +92,8 @@ To master Solidity, one must cover the following topics:
 - **Features:**
   - Built-in Solidity compiler and debugger.
   - Browser-based execution without installation.
+  - Language supported -> Solidity & Vyper
+  - Modules -> Testing, Debugging, Deploy
 
 ### **5️⃣ OpenZeppelin**
 - A security-first library with reusable smart contract components.
