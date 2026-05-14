@@ -31,30 +31,3 @@ Welcome to the Solidity Learning Repository! This repository is designed to be a
 25. [Data Types](https://github.com/prem-kumar-verma/Solidity/blob/main/Chapters/25_data_type.md)  
 26. [Data Locations](https://github.com/prem-kumar-verma/Solidity/blob/main/Chapters/26_data_locations.md)  
 
-## Introduction  
-
-Solidity is a high-level, statically-typed programming language specifically designed for writing smart contracts. Smart contracts are self-executing contracts with the terms of the agreement directly written into code. Solidity runs on the Ethereum Virtual Machine (EVM) and is influenced by JavaScript, Python, and C++.
-
-## Features  
-
-- **Introduction to Solidity:** Learn the basics of Solidity, including its syntax, data types, and core concepts.  
-- **Smart Contract Development:** Step-by-step tutorials on creating, deploying, and testing smart contracts.  
-- **Advanced Topics:** Dive into advanced features of Solidity, such as inheritance, libraries, and optimization techniques.  
-- **Real-World Examples:** Explore real-world use cases and examples to understand practical applications of Solidity.  
-- **Hands-On Exercises:** Practice your skills with a variety of hands-on exercises and coding challenges.  
-- **Resources & References:** Access a curated list of resources, documentation, and references for further learning.  
-
-## Getting Started  
-
-### Prerequisites  
-
-Before you begin, ensure you have the following installed:  
-
-- Node.js (latest LTS version)  
-- npm or Yarn  
-- Truffle or Hardhat (for smart contract development)  
-- A code editor like Visual Studio Code  
-
----
-
-This update keeps your repository well-structured and easier to navigate. Let me know if you need any more modifications! 🚀  
